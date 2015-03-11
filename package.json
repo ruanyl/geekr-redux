@@ -1,0 +1,31 @@
+{
+  "name": "geekr",
+  "version": "0.1.0",
+  "description": "geek reader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruanyl/geekr.git"
+  },
+  "keywords": [
+    "reader",
+    "geek"
+  ],
+  "author": "Ruan Yulong <ruanyu1@gmail.com> (http://github.com/ruanyl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruanyl/geekr/issues"
+  },
+  "homepage": "https://github.com/ruanyl/geekr",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "hexo-front-matter": "^0.2.2",
+    "js-yaml": "^3.2.7",
+    "nash": "^2.0.0",
+    "swig": "^1.4.2",
+    "text-table": "^0.2.0"
+  }
+}

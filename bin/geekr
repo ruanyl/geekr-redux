@@ -1,0 +1,22 @@
+#! /usr/bin/env node
+
+var help = require('../lib/help');
+var nash = require('nash');
+var chalk = require('chalk');
+var pjson = require('../package.json');
+var cli = nash();
+
+cli.command('help')
+  .handler(function (data, flags, done) {
+    console.log(help());
+    done();
+  });
+
+cli.command('version')
+  .handler(function (data, flags, done) {
+    console.log(pjson.name + ': ' + pjson.version);
+    done();
+  });
+
+cli.run(process.argv, function () {
+});
