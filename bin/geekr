@@ -1,14 +1,13 @@
 #! /usr/bin/env node
 
-var help = require('../lib/help');
+var Geekr = require('../lib');
 var nash = require('nash');
-var chalk = require('chalk');
 var pjson = require('../package.json');
 var cli = nash();
 
 cli.command('help')
   .handler(function (data, flags, done) {
-    console.log(help());
+    console.log(Geekr.help());
     done();
   });
 
