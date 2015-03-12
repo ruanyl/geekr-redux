@@ -25,6 +25,7 @@
   "homepage": "https://github.com/ruanyl/geekr",
   "dependencies": {
     "chalk": "^1.0.0",
+    "fs-readdir-recursive": "^0.1.0",
     "hexo-front-matter": "^0.2.2",
     "js-yaml": "^3.2.7",
     "nash": "^2.0.0",
