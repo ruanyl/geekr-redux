@@ -2,4 +2,8 @@
 title: Geek Reader
 
 # post
-posts_dir: _posts/
+post_dir: _posts/
+
+# theme
+theme_dir: themes/
+theme: default

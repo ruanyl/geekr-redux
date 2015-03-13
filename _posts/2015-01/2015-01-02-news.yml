@@ -1,0 +1,12 @@
+posts:
+  - tittle: Experiments with Strengthening JavaScript 2
+    url: https://developers.google.com/v8/experiments
+    description: post about JavaScript
+    time: 2015-03-02 12:22:11
+    category: Tech
+
+  - tittle: ADVANCING JAVASCRIPT WITHOUT BREAKING THE WEB 2
+    url: http://christianheilmann.com/2015/03/09/advancing-javascript-without-breaking-the-web
+    description: post about JavaScript
+    time: 2015-03-02 12:22:11
+    category: Tech
