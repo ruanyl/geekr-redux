@@ -7,3 +7,6 @@ post_dir: _posts/
 # theme
 theme_dir: themes/
 theme: default
+
+# build
+output_dir: output/

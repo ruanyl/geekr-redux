@@ -17,5 +17,12 @@ cli.command('version')
     done();
   });
 
+cli.command('generate')
+  .handler(function (data, flags, done) {
+    Geekr.render(Geekr.post.getPosts());
+
+    done();
+  });
+
 cli.run(process.argv, function () {
 });
