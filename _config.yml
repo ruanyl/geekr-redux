@@ -2,11 +2,11 @@
 title: Geek Reader
 
 # post
-post_dir: _posts/
+post_dir: _posts
 
 # theme
-theme_dir: themes/
+theme_dir: themes
 theme: default
 
 # build
-output_dir: output/
+output_dir: output
