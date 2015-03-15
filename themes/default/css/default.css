@@ -1,0 +1,30 @@
+code {
+  color: #666;
+  font-size: 0.8em;
+}
+.headline {
+  margin-top: 2em;
+}
+.headline h4 {
+  margin: 0;
+  font-weight: bold;
+}
+.headline p {
+  margin: 0;
+  padding: 0.3em 0;
+}
+.headline p span {
+  color: #ccc;
+  font-size: 0.8em;
+  padding-left: 1em;
+}
+.headline p code {
+  margin-left: 1em;
+}
+.headline a {
+  font-size: 1.1em;
+  text-decoration: none;
+}
+.headline a:hover {
+  border-bottom: 1px dashed #ccc;
+}

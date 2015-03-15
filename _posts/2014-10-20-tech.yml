@@ -1,12 +1,12 @@
 posts:
-  - title: Experiments with Strengthening JavaScript
-    url: https://developers.google.com/v8/experiments
-    description: post about JavaScript
+  - title: "Experiments with Strengthening JavaScript"
+    url: "https://developers.google.com/v8/experiments"
+    description: "post about JavaScript"
     time: 2015-03-02 12:22:11
     category: Tech
 
-  - title: ADVANCING JAVASCRIPT WITHOUT BREAKING THE WEB
-    url: http://christianheilmann.com/2015/03/09/advancing-javascript-without-breaking-the-web
-    description: post about JavaScript
+  - title: "ADVANCING JAVASCRIPT WITHOUT BREAKING THE WEB"
+    url: "http://christianheilmann.com/2015/03/09/advancing-javascript-without-breaking-the-web"
+    description: "post about JavaScript"
     time: 2015-03-02 12:22:11
     category: Tech

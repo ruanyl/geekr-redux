@@ -1,5 +1,10 @@
-<div>
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="headline">
+  <h4>News</h4>
   {% for post in posts %}
-  <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+  <p><a href="{{ post.url }}">{{ post.title|capitalize }}</a><code>{{ post.hostname }}</code><span>{{ post.time|date('Y-m-d H:m:s') }}</span></p>
   {% endfor %}
 </div>
+{% endblock %}
