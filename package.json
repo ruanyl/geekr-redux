@@ -25,6 +25,7 @@
   "homepage": "https://github.com/ruanyl/geekr",
   "dependencies": {
     "chalk": "^1.0.0",
+    "ensure-keys": "^0.1.2",
     "fs-extra": "^0.16.5",
     "fs-readdir-recursive": "^0.1.0",
     "hexo-front-matter": "^0.2.2",
