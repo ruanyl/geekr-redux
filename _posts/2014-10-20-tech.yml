@@ -3,10 +3,19 @@ posts:
     url: "https://developers.google.com/v8/experiments"
     description: "post about JavaScript"
     time: 2015-03-02 12:22:11
-    category: Tech
+    category: "Tech"
+    tag: "JS#D46A6A,Html"
 
   - title: "ADVANCING JAVASCRIPT WITHOUT BREAKING THE WEB"
     url: "http://christianheilmann.com/2015/03/09/advancing-javascript-without-breaking-the-web"
     description: "post about JavaScript"
     time: 2015-03-02 12:22:11
-    category: Tech
+    category: "Tech"
+    tag: "JS,Html"
+
+  - title: "JavaScript has a Unicode problem"
+    url: "https://mathiasbynens.be/notes/javascript-unicode"
+    time: 2015-03-15 23:02:11
+    category: "Tech"
+    author: "Mathias"
+    tag: "JS,Unicode"

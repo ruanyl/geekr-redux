@@ -28,3 +28,7 @@ code {
 .headline a:hover {
   border-bottom: 1px dashed #ccc;
 }
+.tag {
+  font-size: 12px;
+  padding: 2px 4px;
+}
