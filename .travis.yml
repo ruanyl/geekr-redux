@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+    - "0.12"
+
+before_install:
+    - npm install -g geekr
+
+install:
+    - npm install
+
+before_script:
+    - git config --global user.name 'ruanyl'
+    - git config --global user.email 'ruanyu1@gmail.com'
+
+script:
+    - ./bin/geekr generate
+
+after_success:
+    - mkdir .deploy
+    - cd .deploy
+    - git init
+    - git remote add origin $DEPLOY_REPO
+    - cp -r ../output/* .
+    - git add -A .
+    - git commit -m 'Site updated'
+    - git push --force --quiet origin gh-pages
