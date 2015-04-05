@@ -1,22 +1,11 @@
 posts:
-  - title: "Experiments with Strengthening JavaScript 2"
-    url: "https://developers.google.com/v8/experiments"
-    description: "post about JavaScript"
-    time: 2015-03-02 12:22:11
-    category: Tech
-
-  - title: "ADVANCING JAVASCRIPT WITHOUT BREAKING THE WEB 2"
-    url: "http://christianheilmann.com/2015/03/09/advancing-javascript-without-breaking-the-web"
-    description: "post about JavaScript"
-    time: 2015-03-02 12:22:11
-    category: Tech
-
   - title: "JavaScript Application Architecture On The Road To 2015"
     url: "http://addyosmani.com/blog/architecture-on-the-road-to-2015/"
     time: 2015-03-15 20:53:11
-    category: Tech
+    category: "Tech"
+    tag: "JS"
 
   - title: "Design Patterns: The Command Pattern"
     url: "http://code.tutsplus.com/tutorials/design-patterns-the-command-pattern--cms-22942"
     time: 2015-03-14 20:53:11
-    category: Tech
+    category: "Tech"

@@ -4,7 +4,7 @@ posts:
     description: "post about JavaScript"
     time: 2015-03-02 12:22:11
     category: "Tech"
-    tag: "JS#D46A6A,Html"
+    tag: "JS,Html"
 
   - title: "ADVANCING JAVASCRIPT WITHOUT BREAKING THE WEB"
     url: "http://christianheilmann.com/2015/03/09/advancing-javascript-without-breaking-the-web"
