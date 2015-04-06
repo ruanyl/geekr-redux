@@ -1,0 +1,21 @@
+posts:
+  - title: "This API is so Fetching!"
+    url: "https://hacks.mozilla.org/2015/03/this-api-is-so-fetching/"
+    time: 2015-04-06 10:23:38
+    category: "Tech"
+    tag: "Fetch"
+    author: "Nikhil Marathe"
+
+  - title: "HTTP/2 for a Faster Web"
+    url: "https://cascadingmedia.com/insites/2015/03/http-2.html"
+    time: 2015-04-06 18:19:09
+    category: "Tech"
+    tag: "HTTP2"
+    author: "Benjamin Patch"
+
+  - title: "Don't React"
+    url: "http://staltz.com/dont-react/#/"
+    time: 2015-04-06 21:21:22
+    category: "Tech"
+    tag: "React,Slides"
+    author: "Andre Medeiros"
