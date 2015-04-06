@@ -3,9 +3,4 @@ posts:
     url: "http://addyosmani.com/blog/architecture-on-the-road-to-2015/"
     time: 2015-03-15 20:53:11
     category: "Tech"
-    tag: "JS"
-
-  - title: "Design Patterns: The Command Pattern"
-    url: "http://code.tutsplus.com/tutorials/design-patterns-the-command-pattern--cms-22942"
-    time: 2015-03-14 20:53:11
-    category: "Tech"
+    tag: "JS,Architecture"

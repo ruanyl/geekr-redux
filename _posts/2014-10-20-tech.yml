@@ -4,14 +4,14 @@ posts:
     description: "post about JavaScript"
     time: 2015-03-02 12:22:11
     category: "Tech"
-    tag: "JS,Html"
+    tag: "JS"
 
   - title: "ADVANCING JAVASCRIPT WITHOUT BREAKING THE WEB"
     url: "http://christianheilmann.com/2015/03/09/advancing-javascript-without-breaking-the-web"
     description: "post about JavaScript"
     time: 2015-03-02 12:22:11
     category: "Tech"
-    tag: "JS,Html"
+    tag: "JS"
 
   - title: "JavaScript has a Unicode problem"
     url: "https://mathiasbynens.be/notes/javascript-unicode"
