@@ -1,0 +1,14 @@
+posts:
+  - title: "Font Loading Techniques"
+    url: "http://davidwalsh.name/font-loading"
+    time: 2015-04-07 22:26:11
+    category: "Tech"
+    tag: "Font"
+    author: "David Walsh"
+
+  - title: "Simplifying Asynchronous Coding with ES7 Async Functions"
+    url: "http://www.sitepoint.com/simplifying-asynchronous-coding-es7-async-functions/"
+    time: 2015-04-07 21:12:34
+    category: "Tech"
+    tag: "ES7"
+    author: "Joe Zimmerman"
