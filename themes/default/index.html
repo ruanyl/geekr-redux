@@ -5,9 +5,9 @@
   <h4>
   {% for ctg in categories %}
     {% if ctg == category %}
-      <a href="/{{ ctg }}/index.html">{{ ctg }}</a>
+    <a href="{{ config.root }}/{{ ctg }}/index.html">{{ ctg }}</a>
     {% else %}
-      <a class="inactivate" href="/{{ ctg }}/index.html">{{ ctg }}</a>
+      <a class="inactivate" href="{{ config.root }}/{{ ctg }}/index.html">{{ ctg }}</a>
     {% endif %}
   {% endfor %}
   </h4>
