@@ -1,34 +1,45 @@
+a {
+  text-decoration: none;
+}
 code {
   color: #666;
   font-size: 0.8em;
 }
-.headline {
+.nav {
   margin-top: 2em;
 }
-.headline h4 {
+.nav h4 {
   margin: 0;
   font-weight: bold;
 }
-.headline p {
+.nav h4 a {
+  padding-right: 0.3em;
+}
+.nav h4 a:hover {
+}
+.content p {
   margin: 0;
   padding: 0.3em 0;
 }
-.headline p span {
+.content p span {
   color: #ccc;
   font-size: 0.8em;
   padding-left: 1em;
 }
-.headline p code {
+.content p code {
   margin-left: 1em;
 }
-.headline a {
+.content a {
   font-size: 1.1em;
-  text-decoration: none;
 }
-.headline a:hover {
+.row a:hover {
   border-bottom: 1px dashed #ccc;
 }
 .tag {
   font-size: 12px;
   padding: 2px 4px;
+}
+.inactivate {
+  color: #ccc;
+  font-size: 0.9em;
 }
