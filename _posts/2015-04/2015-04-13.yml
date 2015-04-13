@@ -1,0 +1,7 @@
+posts:
+  - title: "Caching Tutorial for Web Authors and Webmasters"
+    url: "https://www.mnot.net/cache_docs/"
+    time: 2015-04-13 14:56:11
+    category: "Tech"
+    tag: "Cache"
+    author: "Mark Nottingham"
