@@ -1,0 +1,21 @@
+posts:
+  - title: "Introducing T3: Enabling Large Scale JavaScript Applications"
+    url: "https://www.box.com/blog/introducing-t3-enabling-large-scale-javascript-applications/"
+    time: 2015-04-19 20:49:09
+    category: "Tech"
+    tag: "T3"
+    author: "NICHOLAS ZAKAS"
+
+  - title: "Box Tech Talk: Scalable JavaScript Application Architecture"
+    url: "https://www.youtube.com/watch?v=mKouqShWI4o&noredirect=1"
+    time: 2015-04-19 21:50:21
+    category: "Tech"
+    tag: "Video"
+    author: "Nicholas Zakas"
+
+  - title: "ES6 arrow functions, syntax and lexical scoping"
+    url: "http://toddmotto.com/es6-arrow-functions-syntaxes-and-lexical-scoping/"
+    time: 2015-04-19 22:39:01
+    category: "Tech"
+    tag: "ES6"
+    author: "Todd Motto"
