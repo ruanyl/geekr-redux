@@ -1,7 +1,7 @@
 # site
 title: Geek Reader
-url: http://blog.bigruan.com
-root: /geekr
+url: http://geekr.js.org
+root: /
 
 # post
 post_dir: _posts
