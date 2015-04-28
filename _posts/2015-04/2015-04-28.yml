@@ -1,0 +1,7 @@
+posts:
+  - title: "Basic AJAX Request: XMLHttpRequest"
+    url: "http://davidwalsh.name/xmlhttprequest"
+    time: 2015-04-28 21:33:09
+    category: "Tech"
+    tag: "XMLHttpRequest"
+    author: "David Walsh"
