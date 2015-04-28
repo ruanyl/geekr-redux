@@ -5,3 +5,10 @@ posts:
     category: "Tech"
     tag: "XMLHttpRequest"
     author: "David Walsh"
+
+  - title: "Do a Basic HTTP Request with Node.js"
+    url: "http://davidwalsh.name/nodejs-http-request"
+    time: 2015-04-28 21:53:00
+    category: "Tech"
+    tag: "Nodejs"
+    author: "David Walsh"
