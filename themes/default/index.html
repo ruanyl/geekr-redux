@@ -5,9 +5,17 @@
   <h4>
   {% for ctg in categories %}
     {% if ctg == category %}
-    <a href="{{ config.root }}/{{ ctg }}/index.html">{{ ctg }}</a>
+      {% if config.root == '/' %}
+        <a href="{{ config.root }}{{ ctg }}/index.html">{{ ctg }}</a>
+      {% else %}
+        <a href="{{ config.root }}/{{ ctg }}/index.html">{{ ctg }}</a>
+      {% endif %}
     {% else %}
-      <a class="inactivate" href="{{ config.root }}/{{ ctg }}/index.html">{{ ctg }}</a>
+      {% if config.root == '/' %}
+        <a class="inactivate" href="{{ config.root }}{{ ctg }}/index.html">{{ ctg }}</a>
+      {% else %}
+        <a class="inactivate" href="{{ config.root }}/{{ ctg }}/index.html">{{ ctg }}</a>
+      {% endif %}
     {% endif %}
   {% endfor %}
   </h4>
