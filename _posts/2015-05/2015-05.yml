@@ -1,7 +1,21 @@
 posts:
   - title: "solving npm’s hard problem: naming packages"
     url: "http://blog.npmjs.org/post/116936804365/solving-npms-hard-problem-naming-packages"
-    time: 2015-04-26 16:08:09
+    time: 2015-05-01 16:08:09
     category: "News"
     tag: "news"
     author: "npm"
+
+  - title: "ES6 In Depth: Iterators and the for-of loop"
+    url: "https://hacks.mozilla.org/2015/04/es6-in-depth-iterators-and-the-for-of-loop/"
+    time: 2015-05-03 21:18:09
+    category: "Tech"
+    tag: "ES6"
+    author: "Jason Orendorff"
+
+  - title: "jQuery considered harmful"
+    url: "http://lea.verou.me/2015/04/jquery-considered-harmful/"
+    time: 2015-05-03 22:19:13
+    category: "Tech"
+    tag: "jQuery"
+    author: "Lea Verou"
