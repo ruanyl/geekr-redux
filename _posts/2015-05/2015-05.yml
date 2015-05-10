@@ -19,3 +19,17 @@ posts:
     category: "Tech"
     tag: "jQuery"
     author: "Lea Verou"
+
+  - title: "THE CORE CONCEPTS OF ANGULAR 2"
+    url: "http://victorsavkin.com/post/118372404541/the-core-concepts-of-angular-2"
+    time: 2015-05-10 23:10:13
+    category: "Tech"
+    tag: "Angular"
+    author: "Victor Savkin"
+
+  - title: "Revealing the Inner Workings of JavaScript’s “this” Keyword"
+    url: "http://www.sitepoint.com/inner-workings-javascripts-this-keyword/"
+    time: 2015-05-10 23:23:17
+    category: "Tech"
+    tag: "JS"
+    author: "Ivaylo Gerchev"
