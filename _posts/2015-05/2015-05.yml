@@ -33,3 +33,10 @@ posts:
     category: "Tech"
     tag: "JS"
     author: "Ivaylo Gerchev"
+
+  - title: "Digging into a bind polyfill"
+    url: "http://jsforallof.us/2015/04/22/digging-into-a-bind-polyfill/"
+    time: 2015-05-11 21:09:17
+    category: "Tech"
+    tag: "JS"
+    author: "jsforallof.us"
