@@ -40,3 +40,10 @@ posts:
     category: "Tech"
     tag: "JS"
     author: "jsforallof.us"
+
+  - title: "An introduction to JavaScript-based DDoS"
+    url: "https://blog.cloudflare.com/an-introduction-to-javascript-based-ddos/"
+    time: 2015-05-15 12:04:39
+    category: "Tech"
+    tag: "JS,DDoS"
+    author: "Nick Sullivan"
