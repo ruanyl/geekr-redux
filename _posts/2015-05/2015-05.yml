@@ -40,3 +40,10 @@ posts:
     category: "Tech"
     tag: "JS"
     author: "jsforallof.us"
+
+  - title: "Io.js is moving to the Node.js Foundation, with a merge in progress"
+    url: "http://venturebeat.com/2015/05/13/node-project-spinoff-io-js-is-moving-to-the-node-js-foundation-with-a-merge-in-progress/"
+    time: 2015-05-14 23:03:21
+    category: "News"
+    tag: "JS"
+    author: "Jordan Novet"
