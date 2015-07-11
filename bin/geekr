@@ -19,7 +19,7 @@ cli.command('version')
 
 cli.command('generate')
   .handler(function (data, flags, done) {
-    Geekr.render(Geekr.post.getPosts());
+    Geekr.generate();
 
     done();
   });
