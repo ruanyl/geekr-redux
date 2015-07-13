@@ -7,7 +7,7 @@ var cli = nash();
 
 cli.command('help')
   .handler(function (data, flags, done) {
-    console.log(Geekr.help);
+    console.log(Geekr.help());
     done();
   });
 
