@@ -5,3 +5,10 @@ posts:
     category: "Tech"
     tag: "ECMA"
     author: "Alex R. Young"
+
+  - title: "Why I use Tape Instead of Mocha & So Should You"
+    url: "https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4"
+    time: 2015-07-17 22:12:09
+    category: "Tech"
+    tag: "Test"
+    author: "Eric Elliott"
