@@ -12,3 +12,10 @@ posts:
     category: "Tech"
     tag: "Test"
     author: "Eric Elliott"
+
+  - title: "React.js Introduction For People Who Know Just Enough jQuery To Get By"
+    url: "http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/"
+    time: 2015-07-21 22:55:09
+    category: "Tech"
+    tag: "React,JS"
+    author: "Shu Uesugi"
