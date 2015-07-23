@@ -19,3 +19,10 @@ posts:
     category: "Tech"
     tag: "React,JS"
     author: "Shu Uesugi"
+
+  - title: "Don't use || to set default values in JavaScript"
+    url: "http://www.codereadability.com/javascript-default-parameters-with-or-operator/"
+    time: 2015-07-23 22:53:09
+    category: "Tech"
+    tag: "JS,OPINION"
+    author: "Matt"
