@@ -4,14 +4,10 @@ url: http://geekr.js.org
 root: /
 
 # post
-post_dir: _posts
-
-# theme
-theme_dir: themes
-theme: default
+postDir: _posts
 
 # build
-output_dir: output
+outputDir: output
 
 #cname
 cname: geekr.js.org
