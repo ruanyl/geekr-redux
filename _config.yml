@@ -7,7 +7,7 @@ root: /
 postDir: _posts
 
 # build
-outputDir: output
+outputDir: dist
 
 #cname
 cname: geekr.js.org
