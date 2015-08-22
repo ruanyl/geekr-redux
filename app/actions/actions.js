@@ -25,7 +25,7 @@ export function prevPage() {
 
 export function requestPage(pageNo) {
   return dispatch => {
-    return fetch('http://localhost:8080/output.json')
+    return fetch(`http://localhost:8080/page${pageNo}.json`)
       .then(res => res.json())
       .then(json => dispatch(receivePage(json, pageNo)));
   };

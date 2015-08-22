@@ -13,15 +13,17 @@ class App extends Component {
   }
 
   render() {
-    const { dispatch, pages, pageData } = this.props;
+    const { dispatch, data } = this.props;
+    console.log(data);
     return (
       <div>
+        <PostList posts={data['page' + data.current]} />
         <Pagination
           onPage={this.handleOnPage.bind(this)}
           onPrevPage={this.handleOnPrevPage.bind(this)}
           onNextPage={() => dispatch(nextPage())}
-          {...pages} />
-        <PostList posts={pageData['page' + pages.current].posts} />
+          total={data.total}
+          current={data.current} />
       </div>
     );
   }
@@ -40,8 +42,7 @@ class App extends Component {
 
 function select(state) {
   return {
-    pages: state.pages,
-    pageData: state.pageData
+    data: state.pages
   };
 }
 

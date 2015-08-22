@@ -3,8 +3,7 @@ import React, { Component, PropTypes } from 'react';
 export default class Pagination extends Component {
   render() {
     return (
-      <div>
-        <span>{this.props.current}</span>
+      <div className='pagination'>
         <a href="#" onClick={this.props.onPrevPage}>prev</a>
         {this.pageNumbers()}
         <a href="#" onClick={this.props.onNextPage}>next</a>
