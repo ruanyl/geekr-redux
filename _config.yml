@@ -11,3 +11,5 @@ outputDir: output
 
 #cname
 cname: geekr.js.org
+
+pageSize: 5
