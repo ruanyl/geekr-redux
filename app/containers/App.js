@@ -16,7 +16,7 @@ class App extends Component {
     const { dispatch, data } = this.props;
     console.log(data);
     return (
-      <div>
+      <div className="main">
         <PostList posts={data['page' + data.current]} />
         <Pagination
           onPage={this.handleOnPage.bind(this)}
@@ -34,9 +34,10 @@ class App extends Component {
   }
 
   handleOnPrevPage() {
-    const { dispatch, pages } = this.props;
+    const { dispatch, data } = this.props;
+    let pageNo = data.current > 1 ? data.current - 1 : data.current;
     dispatch(prevPage());
-    dispatch(requestPage(pages.current - 1));
+    dispatch(requestPage(pageNo));
   }
 }
 

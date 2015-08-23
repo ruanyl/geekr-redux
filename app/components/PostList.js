@@ -4,7 +4,7 @@ import Post from './Post';
 export default class PostList extends Component {
   render() {
     return (
-      <ul>
+      <ul className="posts">
         {this.props.posts ? this.props.posts.map((post, index) => <Post key={index} {...post} />) : ''}
       </ul>
     );
