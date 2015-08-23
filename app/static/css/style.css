@@ -1,0 +1,42 @@
+body {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  padding-left: 20px;
+}
+a.post-link {
+  color: #0FA0CE;
+  text-decoration: none;
+}
+a.post-link:hover {
+  border-bottom: 1px dashed #0FA0CE;
+}
+ul.posts li {
+  padding: 3px;
+}
+.pagination {
+  margin-top: 16px;
+}
+.pagination a {
+  text-decoration: none;
+  padding: 2px 4px;
+  color: #2783BF;
+  font-size: 20px;
+}
+.author {
+  padding: 2px 4px;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #666;
+  background-color: #F1F1F1;
+  margin-left: 20px;
+  margin-right: 20px;
+}

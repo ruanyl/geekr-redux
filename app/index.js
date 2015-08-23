@@ -1,3 +1,5 @@
+import css from './static/css/style.css';
+
 import thunkMiddleware from 'redux-thunk';
 
 import React from 'react';
