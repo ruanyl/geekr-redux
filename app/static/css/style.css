@@ -30,6 +30,10 @@ ul.posts li {
   color: #2783BF;
   font-size: 20px;
 }
+.pagination a.current {
+  color: #fff;
+  background-color: #2783BF;
+}
 .author {
   padding: 2px 4px;
   border: 1px solid #E1E1E1;

@@ -14,16 +14,15 @@ class App extends Component {
 
   render() {
     const { dispatch, data } = this.props;
-    console.log(data);
     return (
       <div className="main">
         <PostList posts={data['page' + data.current]} />
         <Pagination
           onPage={this.handleOnPage.bind(this)}
           onPrevPage={this.handleOnPrevPage.bind(this)}
-          onNextPage={() => dispatch(nextPage())}
+          onNextPage={this.handleOnNextPage.bind(this)}
           total={data.total}
-          current={data.current} />
+          current={data.next} />
       </div>
     );
   }
@@ -37,6 +36,13 @@ class App extends Component {
     const { dispatch, data } = this.props;
     let pageNo = data.current > 1 ? data.current - 1 : data.current;
     dispatch(prevPage());
+    dispatch(requestPage(pageNo));
+  }
+
+  handleOnNextPage() {
+    const { dispatch, data } = this.props;
+    let pageNo = data.current < data.total ? data.current + 1 : data.current;
+    dispatch(nextPage());
     dispatch(requestPage(pageNo));
   }
 }
