@@ -12,8 +12,9 @@ ul {
   padding-left: 20px;
 }
 a.post-link {
-  color: #0FA0CE;
+  color: #2783BF;
   text-decoration: none;
+  font-size: 1.3em;
 }
 a.post-link:hover {
   border-bottom: 1px dashed #0FA0CE;
@@ -28,7 +29,7 @@ ul.posts li {
   text-decoration: none;
   padding: 2px 4px;
   color: #2783BF;
-  font-size: 20px;
+  font-size: 1.2em;
 }
 .pagination a.current {
   color: #fff;
@@ -42,5 +43,16 @@ ul.posts li {
   color: #666;
   background-color: #F1F1F1;
   margin-left: 20px;
-  margin-right: 20px;
+}
+.time {
+  margin-left: 20px;
+  font-size: .8em;
+  color: #9c9c9c;
+}
+.tag {
+  font-size: 0.8em;
+  color: #fff;
+  background-color: #2783BF;
+  padding: 3px 5px;
+  margin-left: 20px;
 }
