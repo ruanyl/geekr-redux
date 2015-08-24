@@ -5,7 +5,7 @@ export default class Post extends Component {
     return (
       <li>
         <a className="post-link" href={this.props.url} target="_blank">{this.props.title}</a>
-        <span className="author">{this.props.author}</span>
+        { this.props.author ? <span className="author">{this.props.author}</span> : null }
         <span className="time">{this.props.time}</span>
         <span className="tag">{this.props.tag}</span>
       </li>

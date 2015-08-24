@@ -12,4 +12,4 @@ outputDir: dist
 #cname
 cname: geekr.js.org
 
-pageSize: 5
+pageSize: 10
