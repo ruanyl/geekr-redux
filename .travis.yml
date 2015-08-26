@@ -13,8 +13,8 @@ before_script:
     - git config --global user.email 'ruanyu1@gmail.com'
 
 script:
-    - ./bin/geekr generate
     - webpack
+    - ./bin/geekr generate
 
 after_success:
     - mkdir .deploy
