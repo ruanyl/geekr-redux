@@ -17,7 +17,7 @@ class App extends Component {
     const { dispatch, data } = this.props;
     return (
       <div className="main">
-        <Indicator />
+        <Indicator pending={data.pending} />
         <PostList posts={data['page' + data.current]} />
         <Pagination
           onPage={this.handleOnPage.bind(this)}
