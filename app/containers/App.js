@@ -4,6 +4,7 @@ import React, { Component, PropTypes } from 'react';
 import Post from '../components/Post';
 import PostList from '../components/PostList';
 import Pagination from '../components/Pagination';
+import Indicator from '../components/Indicator';
 import { connect } from 'react-redux';
 import { gotoPage, nextPage, prevPage, requestPage } from '../actions/actions';
 
@@ -16,13 +17,15 @@ class App extends Component {
     const { dispatch, data } = this.props;
     return (
       <div className="main">
+        <Indicator />
         <PostList posts={data['page' + data.current]} />
         <Pagination
           onPage={this.handleOnPage.bind(this)}
           onPrevPage={this.handleOnPrevPage.bind(this)}
           onNextPage={this.handleOnNextPage.bind(this)}
           total={data.total}
-          current={data.next} />
+          current={data.next}
+          pendding={data.pending} />
       </div>
     );
   }
