@@ -3,7 +3,7 @@ node_js:
     - "0.12"
 
 before_install:
-    - npm install -g geekr
+    - npm install -g webpack
 
 install:
     - npm install
@@ -13,6 +13,7 @@ before_script:
     - git config --global user.email 'ruanyu1@gmail.com'
 
 script:
+    - webpack
     - ./bin/geekr generate
 
 after_success:
@@ -20,7 +21,7 @@ after_success:
     - cd .deploy
     - git init
     - git remote add origin $DEPLOY_REPO
-    - cp -r ../output/* .
+    - cp -r ../dist/* .
     - git add -A .
     - git commit -m 'Site updated'
     - git push --force --quiet origin master:gh-pages
