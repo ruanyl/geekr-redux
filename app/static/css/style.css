@@ -56,3 +56,6 @@ ul.posts li {
   padding: 3px 5px;
   margin-left: 20px;
 }
+.indicator {
+  float: right;
+}
