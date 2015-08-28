@@ -26,3 +26,10 @@ posts:
     category: "Tech"
     tag: "ES6"
     author: "Dr. Axel"
+
+  - title: "5 steps to making a Node.js frontend app 10x faster"
+    url: "https://engineering.gosquared.com/making-dashboard-faster"
+    time: 2015-08-28 20:08:13
+    category: "Tech"
+    tag: "Nodejs"
+    author: "JT"
