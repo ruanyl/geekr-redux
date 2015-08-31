@@ -33,3 +33,17 @@ posts:
     category: "Tech"
     tag: "Nodejs"
     author: "JT"
+
+  - title: "ES6 In Depth: The Future"
+    url: "https://hacks.mozilla.org/2015/08/es6-in-depth-the-future/"
+    time: 2015-08-29 11:42:31
+    category: "Tech"
+    tag: "ES6"
+    author: "Jason Orendorff"
+
+  - title: "Internationalization And Localization In Your React Native App"
+    url: "https://blog.nraboy.com/2015/08/internationalization-and-localization-in-your-react-native-app/"
+    time: 2015-08-30 20:52:39
+    category: "Tech"
+    tag: "React"
+    author: "Nic Raboy"
