@@ -1,6 +1,8 @@
 # site
 title: Geek Reader
+name: Reader
 url: http://geekr.js.org
+githubUrl: https://github.com/ruanyl/geekr-redux
 root: /
 
 # post
@@ -12,4 +14,4 @@ outputDir: dist
 #cname
 cname: geekr.js.org
 
-pageSize: 10
+pageSize: 15
