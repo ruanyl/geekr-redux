@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/ruanyl/geekr",
   "dependencies": {
-    "babel-runtime": "^5.8.20",
     "chalk": "^1.0.0",
     "ensure-keys": "^0.1.2",
     "fs-extra": "^0.16.5",
@@ -42,6 +41,7 @@
     "redux": "^1.0.0-rc",
     "redux-thunk": "^0.1.0",
     "rimraf": "^2.3.2",
+    "rss": "^1.1.1",
     "swig": "^1.4.2",
     "text-table": "^0.2.0"
   },
