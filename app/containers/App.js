@@ -1,22 +1,35 @@
-import fetch from 'isomorphic-fetch';
-
-import React, { Component, PropTypes } from 'react';
-import Post from '../components/Post';
+import React, {Component, PropTypes} from 'react';
 import PostList from '../components/PostList';
 import Pagination from '../components/Pagination';
 import Indicator from '../components/Indicator';
-import { connect } from 'react-redux';
-import { gotoPage, nextPage, prevPage, requestPage } from '../actions/actions';
+import {connect} from 'react-redux';
+import {gotoPage} from '../actions/actions';
 
 class App extends Component {
   componentDidMount() {
-    this.props.dispatch(requestPage(1));
+    this.props.dispatch(gotoPage(1));
+  }
+
+  handleOnPrevPage() {
+    const {dispatch, data} = this.props;
+    const pageNo = data.current > 1 ? data.current - 1 : data.current;
+    dispatch(gotoPage(pageNo));
+  }
+
+  handleOnNextPage() {
+    const {dispatch, data} = this.props;
+    const pageNo = data.current < data.total ? data.current + 1 : data.current;
+    dispatch(gotoPage(pageNo));
+  }
+
+  handleOnPage(i) {
+    this.props.dispatch(gotoPage(i));
   }
 
   render() {
-    const { dispatch, data } = this.props;
+    const {data} = this.props;
     return (
-      <div className="main">
+      <div className='main'>
         <Indicator pending={data.pending} />
         <PostList posts={data['page' + data.current]} />
         <Pagination
@@ -24,30 +37,12 @@ class App extends Component {
           onPrevPage={this.handleOnPrevPage.bind(this)}
           onNextPage={this.handleOnNextPage.bind(this)}
           total={data.total}
-          current={data.next}
+          current={data.current}
           pendding={data.pending} />
       </div>
     );
   }
 
-  handleOnPage(i) {
-    this.props.dispatch(gotoPage(i));
-    this.props.dispatch(requestPage(i));
-  }
-
-  handleOnPrevPage() {
-    const { dispatch, data } = this.props;
-    let pageNo = data.current > 1 ? data.current - 1 : data.current;
-    dispatch(prevPage());
-    dispatch(requestPage(pageNo));
-  }
-
-  handleOnNextPage() {
-    const { dispatch, data } = this.props;
-    let pageNo = data.current < data.total ? data.current + 1 : data.current;
-    dispatch(nextPage());
-    dispatch(requestPage(pageNo));
-  }
 }
 
 function select(state) {
