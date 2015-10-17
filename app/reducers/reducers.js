@@ -13,7 +13,7 @@ export function pages(state = initialState, action) {
       return Object.assign({}, state, {pending: true});
     case RECEIVE_PAGE:
       const newData = {};
-      newData['page' + action.pageNo] = action.json['page' + action.pageNo];
+      newData['page' + action.json.current] = action.json['page' + action.json.current];
       newData.total = action.json.total;
       newData.current = action.json.current;
       newData.pending = false;
