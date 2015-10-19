@@ -1,3 +1,5 @@
+require('../static/css/style.css');
+
 import React, { Component, PropTypes } from 'react';
 import Post from './Post';
 
