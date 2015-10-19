@@ -1,0 +1,6 @@
+{
+  "name": "js-reader",
+  "dependencies": {
+    "skeleton": "~2.0.4"
+  }
+}

@@ -3,3 +3,4 @@ output/
 *.DS_Store
 app/index.html
 dist/
+bower_components

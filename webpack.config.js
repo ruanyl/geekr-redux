@@ -1,3 +1,7 @@
+var path = require('path');
+var webpack = require("webpack");
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
+
 module.exports = {
   context: __dirname + "/app",
   entry: {
@@ -9,6 +13,16 @@ module.exports = {
     filename: "app.js",
     path: __dirname + "/dist"
   },
+
+  resolve: {
+    root: [path.join(__dirname, "bower_components")]
+  },
+
+  plugins: [
+    new webpack.ResolverPlugin(
+      new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin("bower.json", ["main"])
+    )
+  ],
 
   module: {
     loaders: [
@@ -23,7 +37,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: "style/url!file"
+        loader: "style!css"
       }
     ]
   },
