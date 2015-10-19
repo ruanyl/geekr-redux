@@ -1,12 +1,8 @@
 body {
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
+  background-color: #f9f9f9;
 }
 ul {
-  list-style: none;
+  list-style: none !important;
   margin: 0;
   padding: 0;
 }
@@ -31,16 +27,16 @@ header a {
 a.post-link {
   color: #2783BF;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 a.post-link:hover {
-  border-bottom: 1px dashed #0FA0CE;
 }
 ul.posts li {
   padding: 3px;
 }
 .pagination {
   margin-top: 16px;
+  margin-bottom: 20px;
 }
 .pagination a {
   text-decoration: none;
@@ -52,14 +48,13 @@ ul.posts li {
   color: #fff;
   background-color: #2783BF;
 }
-.author {
+.post-author {
   padding: 2px 4px;
   border: 1px solid #E1E1E1;
   border-radius: 4px;
   font-size: 12px;
   color: #666;
   background-color: #F1F1F1;
-  margin-left: 20px;
 }
 .time {
   margin-left: 20px;
@@ -75,4 +70,16 @@ ul.posts li {
 }
 .indicator {
   float: right;
+}
+li.post-list {
+  padding: 10px 20px !important;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.12);
+  background-color: #fff;
+}
+li.post-list:hover {
+  box-shadow: 0 1px 4px rgba(0,0,0,.22);
+}
+.post-title {
+  margin-bottom: 10px;
 }
