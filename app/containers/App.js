@@ -1,9 +1,9 @@
-import React, {Component, PropTypes} from 'react';
+import React, {Component} from 'react';
 import PostList from '../components/PostList';
 import Pagination from '../components/Pagination';
 import Indicator from '../components/Indicator';
 import {connect} from 'react-redux';
-import {gotoPage} from '../actions/actions';
+import {gotoPage, like} from '../actions/actions';
 
 class App extends Component {
   componentDidMount() {
@@ -26,12 +26,16 @@ class App extends Component {
     this.props.dispatch(gotoPage(i));
   }
 
+  handleLikeClick(url) {
+    this.props.dispatch(like(url));
+  }
+
   render() {
     const {data} = this.props;
     return (
       <div className='main'>
         <Indicator pending={data.pending} />
-        <PostList posts={data['page' + data.current]} />
+        <PostList handleLikeClick={this.handleLikeClick.bind(this)} posts={data['page' + data.current]} />
         <Pagination
           onPage={this.handleOnPage.bind(this)}
           onPrevPage={this.handleOnPrevPage.bind(this)}
