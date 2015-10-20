@@ -83,3 +83,8 @@ li.post-list:hover {
 .post-title {
   margin-bottom: 10px;
 }
+.post-like {
+  cursor: pointer;
+  float: right;
+  color: #9c9c9c;
+}
