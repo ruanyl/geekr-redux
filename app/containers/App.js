@@ -3,7 +3,7 @@ import PostList from '../components/PostList';
 import Pagination from '../components/Pagination';
 import Indicator from '../components/Indicator';
 import {connect} from 'react-redux';
-import {gotoPage, like} from '../actions/actions';
+import {gotoPage, toggleLike} from '../actions/actions';
 
 class App extends Component {
   componentDidMount() {
@@ -27,7 +27,7 @@ class App extends Component {
   }
 
   handleLikeClick(url) {
-    this.props.dispatch(like(url));
+    this.props.dispatch(toggleLike(url));
   }
 
   render() {

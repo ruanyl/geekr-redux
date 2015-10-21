@@ -1,4 +1,5 @@
-import {GOTO_PAGE, RECEIVE_PAGE, LIKE} from '../actions/actions';
+import localforage from 'localforage';
+import {GOTO_PAGE, RECEIVE_PAGE, TOGGLE_LIKE, LIKE} from '../actions/actions';
 
 const initialState = {
   total: 1,
@@ -18,11 +19,25 @@ export function pages(state = initialState, action) {
       newData.current = action.json.current;
       newData.pending = false;
       return Object.assign({}, state, newData);
+    case TOGGLE_LIKE:
+      const toggleLikeData = {};
+      toggleLikeData['page' + state.current] = state['page' + state.current].map(function(item) {
+        if(item.url === action.url) {
+          item.like = item.like ? !item.like : 1;
+          if(item.like) {
+            localforage.setItem(item.url, 1);
+          } else {
+            localforage.removeItem(item.url);
+          }
+        }
+        return item;
+      });
+      return Object.assign({}, state, toggleLikeData);
     case LIKE:
       const likeData = {};
       likeData['page' + state.current] = state['page' + state.current].map(function(item) {
         if(item.url === action.url) {
-          item.like = item.like ? !item.like : 1;
+          item.like = 1;
         }
         return item;
       });
