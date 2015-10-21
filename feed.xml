@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Geek Reader]]></title>
+        <description><![CDATA[Geek Reader]]></description>
+        <link>http://geekr.js.org</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 21 Oct 2015 21:09:40 GMT</lastBuildDate>
+        <atom:link href="http://geekr.js.org/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Internationalization And Localization In Your React Native App]]></title>
+            <description><![CDATA[https://blog.nraboy.com/2015/08/internationalization-and-localization-in-your-react-native-app/]]></description>
+            <link>https://blog.nraboy.com/2015/08/internationalization-and-localization-in-your-react-native-app/</link>
+            <guid isPermaLink="false">https://blog.nraboy.com/2015/08/internationalization-and-localization-in-your-react-native-app/</guid>
+            <pubDate>Sun, 30 Aug 2015 20:52:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ES6 In Depth: The Future]]></title>
+            <description><![CDATA[https://hacks.mozilla.org/2015/08/es6-in-depth-the-future/]]></description>
+            <link>https://hacks.mozilla.org/2015/08/es6-in-depth-the-future/</link>
+            <guid isPermaLink="false">https://hacks.mozilla.org/2015/08/es6-in-depth-the-future/</guid>
+            <pubDate>Sat, 29 Aug 2015 11:42:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5 steps to making a Node.js frontend app 10x faster]]></title>
+            <description><![CDATA[https://engineering.gosquared.com/making-dashboard-faster]]></description>
+            <link>https://engineering.gosquared.com/making-dashboard-faster</link>
+            <guid isPermaLink="false">https://engineering.gosquared.com/making-dashboard-faster</guid>
+            <pubDate>Fri, 28 Aug 2015 20:08:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Getting started with ECMAScript 6]]></title>
+            <description><![CDATA[http://www.2ality.com/2015/08/getting-started-es6.html]]></description>
+            <link>http://www.2ality.com/2015/08/getting-started-es6.html</link>
+            <guid isPermaLink="false">http://www.2ality.com/2015/08/getting-started-es6.html</guid>
+            <pubDate>Thu, 27 Aug 2015 23:02:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Promise Ponderings, (Anti-)Patterns, and Apologies]]></title>
+            <description><![CDATA[https://sdgluck.github.io/2015/08/24/promise-ponderings-patterns-apologies/]]></description>
+            <link>https://sdgluck.github.io/2015/08/24/promise-ponderings-patterns-apologies/</link>
+            <guid isPermaLink="false">https://sdgluck.github.io/2015/08/24/promise-ponderings-patterns-apologies/</guid>
+            <pubDate>Thu, 27 Aug 2015 23:00:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ES6 JavaScript Destructuring in Depth]]></title>
+            <description><![CDATA[http://ponyfoo.com/articles/es6-destructuring-in-depth]]></description>
+            <link>http://ponyfoo.com/articles/es6-destructuring-in-depth</link>
+            <guid isPermaLink="false">http://ponyfoo.com/articles/es6-destructuring-in-depth</guid>
+            <pubDate>Thu, 27 Aug 2015 22:52:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Stop Using React for EVERYTHING!]]></title>
+            <description><![CDATA[https://medium.com/@zackargyle/stop-using-react-for-everything-c8297ac1a644]]></description>
+            <link>https://medium.com/@zackargyle/stop-using-react-for-everything-c8297ac1a644</link>
+            <guid isPermaLink="false">https://medium.com/@zackargyle/stop-using-react-for-everything-c8297ac1a644</guid>
+            <pubDate>Thu, 27 Aug 2015 22:39:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[You Might Not Need Underscore]]></title>
+            <description><![CDATA[https://www.reindex.io/blog/you-might-not-need-underscore/]]></description>
+            <link>https://www.reindex.io/blog/you-might-not-need-underscore/</link>
+            <guid isPermaLink="false">https://www.reindex.io/blog/you-might-not-need-underscore/</guid>
+            <pubDate>Thu, 23 Jul 2015 23:17:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Don't use || to set default values in JavaScript]]></title>
+            <description><![CDATA[http://www.codereadability.com/javascript-default-parameters-with-or-operator/]]></description>
+            <link>http://www.codereadability.com/javascript-default-parameters-with-or-operator/</link>
+            <guid isPermaLink="false">http://www.codereadability.com/javascript-default-parameters-with-or-operator/</guid>
+            <pubDate>Thu, 23 Jul 2015 22:53:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[React.js Introduction For People Who Know Just Enough jQuery To Get By]]></title>
+            <description><![CDATA[http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/]]></description>
+            <link>http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/</link>
+            <guid isPermaLink="false">http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/</guid>
+            <pubDate>Tue, 21 Jul 2015 22:55:09 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
